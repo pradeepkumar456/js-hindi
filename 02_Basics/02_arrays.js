@@ -1,28 +1,32 @@
-const marbelHeros = [ "Thor ", "spiderman ", "Ironman "];
-const dcHeros  = ["superman ", "flash ", "batman "];
+const marvel_heros = ["thor", "Ironman", "spiderman"]
+const dc_heros = ["superman", "flash", "batman"]
 
-// marbelHeros.push(dcHeros);
-// console.log(marbelHeros);
+// marvel_heros.push(dc_heros)
 
-// const myHeros = marbelHeros.concat(dcHeros);
-// console.log(myHeros);
+// console.log(marvel_heros);
+// console.log(marvel_heros[3][1]);
 
-// const myNewHeros = [...marbelHeros , ...dcHeros];
-// console.log(myNewHeros);
+// const allHeros = marvel_heros.concat(dc_heros)
+// console.log(allHeros);
 
-const anotheArrays = [20,10 , [10,14,36], [45,74,12],8, [1,4 ,[4,6]]];
+const all_new_heros = [...marvel_heros, ...dc_heros]
 
-// const newArray = anotheArrays.flat(Infinity);
-// console.log(newArray);
+// console.log(all_new_heros);
+
+const another_array = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]]
+
+const real_another_array = another_array.flat(Infinity)
+console.log(real_another_array);
 
 
-// console.log(Array.isArray("Pradeep"));
-// console.log(Array.from("Pradeep"));
 
-// console.log(Array.from( {name : "Pradeep"}));
- 
-const score1 = 20;
-const score2 = 40;
-const score3 = 80;
+console.log(Array.isArray("Hitesh"))
+console.log(Array.from("Hitesh"))
+console.log(Array.from({name: "hitesh"})) // interesting
+
+let score1 = 100
+let score2 = 200
+let score3 = 300
+
 console.log(Array.of(score1, score2, score3));
 
