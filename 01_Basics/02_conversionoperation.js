@@ -5,6 +5,8 @@ console.log(typeof (marks));
 let valueInNumber = Number(marks);
 console.log(typeof (valueInNumber));
 console.log(valueInNumber);
+console.log("Hello");
+
 
  
 
